@@ -1,0 +1,26 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Директория сборки
+dist/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Кэш poetry
+poetry.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Временные файлы
+*.log
+.DS_Store
+
+.ruff_cache
